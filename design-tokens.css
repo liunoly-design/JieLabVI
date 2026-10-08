@@ -1,0 +1,3 @@
+:root{--paper:#F8FAFC;--ink:#1E293B;--blue:#2D72D9;--yellow:#FFC53D;--orange:#FFC53D;--action:#286BCC;--muted:#5A6A7F;--line:#CCD8E7;--warm:#F7F3EB;--dark:#101B2D;--darkText:#F8FAFC;--darkMuted:#B8C7DA;--darkAction:#8DBAFF;--success:#18734B;--warning:#895100;--error:#B42332;}
+@font-face{font-family:LabCN;src:url(assets/fonts/NotoSansSC-Variable.ttf);font-weight:100 900;font-display:swap}@font-face{font-family:LabEN;src:url(assets/fonts/lab-inter-0.ttf);font-weight:400;font-display:swap}@font-face{font-family:LabEN;src:url(assets/fonts/lab-inter-3.ttf);font-weight:700;font-display:swap}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

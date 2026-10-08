@@ -1,0 +1,16 @@
+{
+  "name": "jie-ai-lab-ui-guide",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "antd": "6.6.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "english": "Jie's ARTIFICIAL INTELLIGENCE LAB",
+  "chinese": "杰哥 AI 实验室",
+  "alignment": "equal visible left/right bounds",
+  "horizontal": {
+    "left": 296,
+    "right": 860,
+    "width": 564
+  },
+  "highlight": {
+    "chinese": "AI",
+    "english": "ARTIFICIAL INTELLIGENCE",
+    "color": "#FFC53D"
+  },
+  "formalFiles": [
+    "logo-horizontal-light.svg",
+    "logo-horizontal-dark.svg",
+    "wordmark-light.svg"
+  ],
+  "note": "Official outlined glyphs define layout; native-text SVG is an editing source.",
+  "version": "3.0.0-review",
+  "variants": {
+    "long": "Jie's ARTIFICIAL INTELLIGENCE LAB",
+    "medium": "Jie's AI Lab",
+    "short": "Jie Lab"
+  },
+  "rule": "完整中文组合用 long；紧凑独立英文用 medium；仅英文用 short"
+}

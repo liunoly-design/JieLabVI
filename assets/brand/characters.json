@@ -1,0 +1,56 @@
+[
+  {
+    "id": "square-transparent",
+    "large": "assets/brand/character-square-transparent.png",
+    "thumbnail": "assets/brand/character-square-transparent-thumb-256.png",
+    "width": 1254,
+    "height": 1254,
+    "alpha": true,
+    "aspect": "square"
+  },
+  {
+    "id": "rectangle-transparent",
+    "large": "assets/brand/character-rectangle-transparent.png",
+    "thumbnail": "assets/brand/character-rectangle-transparent-thumb-256.png",
+    "width": 1672,
+    "height": 941,
+    "alpha": true,
+    "aspect": "rectangle"
+  },
+  {
+    "id": "square-yellow",
+    "large": "assets/brand/character-square-yellow.png",
+    "thumbnail": "assets/brand/character-square-yellow-thumb-256.png",
+    "width": 1254,
+    "height": 1254,
+    "alpha": false,
+    "aspect": "square"
+  },
+  {
+    "id": "rectangle-yellow",
+    "large": "assets/brand/character-rectangle-yellow.png",
+    "thumbnail": "assets/brand/character-rectangle-yellow-thumb-256.png",
+    "width": 1672,
+    "height": 941,
+    "alpha": false,
+    "aspect": "rectangle"
+  },
+  {
+    "id": "square-blue",
+    "large": "assets/brand/character-square-blue.png",
+    "thumbnail": "assets/brand/character-square-blue-thumb-256.png",
+    "width": 1254,
+    "height": 1254,
+    "alpha": false,
+    "aspect": "square"
+  },
+  {
+    "id": "rectangle-blue",
+    "large": "assets/brand/character-rectangle-blue.png",
+    "thumbnail": "assets/brand/character-rectangle-blue-thumb-256.png",
+    "width": 1672,
+    "height": 941,
+    "alpha": false,
+    "aspect": "rectangle"
+  }
+]

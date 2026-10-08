@@ -1,0 +1,43 @@
+{
+  "version": "3.0.0-review",
+  "antd": "6.6.5",
+  "logoYellow": "#FFC53D",
+  "light": {
+    "colorBgLayout": "#F8FAFC",
+    "colorBgContainer": "#FFFFFF",
+    "colorBgElevated": "#FFFFFF",
+    "colorText": "#1E293B",
+    "colorTextSecondary": "#5A6A7F",
+    "colorTextPlaceholder": "#5A6A7F",
+    "colorPrimary": "#286bcc",
+    "colorPrimaryHover": "#1C58B0",
+    "colorPrimaryActive": "#15468E",
+    "colorTextLightSolid": "#FFFFFF",
+    "colorLink": "#286bcc",
+    "colorBorder": "#71839B",
+    "colorBorderSecondary": "#CCD8E7",
+    "colorSuccess": "#18734b",
+    "colorWarning": "#895100",
+    "colorError": "#b42332",
+    "colorInfo": "#286bcc"
+  },
+  "dark": {
+    "colorBgLayout": "#101B2D",
+    "colorBgContainer": "#17243A",
+    "colorBgElevated": "#21324D",
+    "colorText": "#F8FAFC",
+    "colorTextSecondary": "#B8C7DA",
+    "colorTextPlaceholder": "#B8C7DA",
+    "colorPrimary": "#8DBAFF",
+    "colorPrimaryHover": "#A9CAFF",
+    "colorPrimaryActive": "#669EEE",
+    "colorTextLightSolid": "#101B2D",
+    "colorLink": "#8DBAFF",
+    "colorBorder": "#71839B",
+    "colorBorderSecondary": "#3A4D68",
+    "colorSuccess": "#73D49F",
+    "colorWarning": "#FFD666",
+    "colorError": "#FF8A94",
+    "colorInfo": "#8DBAFF"
+  }
+}

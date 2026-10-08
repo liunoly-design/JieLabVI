@@ -1,0 +1,47 @@
+{
+  "version": "3.0.0-review",
+  "colors": {
+    "paper": "#F8FAFC",
+    "ink": "#1E293B",
+    "blue": "#2D72D9",
+    "yellow": "#FFC53D",
+    "orange": "#FFC53D",
+    "action": "#286BCC",
+    "muted": "#5A6A7F",
+    "line": "#CCD8E7",
+    "warm": "#F7F3EB",
+    "dark": "#101B2D",
+    "darkText": "#F8FAFC",
+    "darkMuted": "#B8C7DA",
+    "darkAction": "#8DBAFF",
+    "success": "#18734B",
+    "warning": "#895100",
+    "error": "#B42332"
+  },
+  "type": {
+    "chinese": "Noto Sans SC",
+    "latin": "Inter",
+    "display": 72,
+    "displayMobile": 40,
+    "heading": 36,
+    "body": 18,
+    "bodyMobile": 16,
+    "caption": 14
+  },
+  "space": [
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+  ],
+  "motion": {
+    "fast": 180,
+    "medium": 260,
+    "brand": 900,
+    "easing": "cubic-bezier(.2,.8,.2,1)"
+  }
+}

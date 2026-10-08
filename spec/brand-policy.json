@@ -1,0 +1,243 @@
+{
+  "version": "3.0.0",
+  "date": "2026-10-08",
+  "language": "zh-CN",
+  "authoritativeEntries": [
+    "AI-README.md",
+    "docs/ai/overall.md",
+    "spec/brand-policy.json",
+    "guide/ui-colors.json"
+  ],
+  "mandatoryScope": [
+    "color",
+    "logo"
+  ],
+  "optionalReferences": [
+    "typography",
+    "layout",
+    "framework",
+    "components",
+    "interaction",
+    "motion",
+    "character",
+    "auxiliaryCurve",
+    "templates"
+  ],
+  "colors": {
+    "brand": {
+      "blue": "#2D72D9",
+      "yellow": "#FFC53D",
+      "paper": "#F8FAFC",
+      "ink": "#1E293B"
+    },
+    "themeTokens": "guide/ui-colors.json",
+    "antdConfig": "ui/theme.mjs",
+    "yellowUsage": "Logo AI and sparse brand accents; not light-background body text or primary action; not semantic warning"
+  },
+  "logo": {
+    "long": {
+      "name": "Jie's ARTIFICIAL INTELLIGENCE LAB",
+      "use": "Full Chinese bilingual lockup",
+      "light": "assets/brand/logo-horizontal-light.svg",
+      "dark": "assets/brand/logo-horizontal-dark.svg",
+      "recommendedWidthPx": 480
+    },
+    "medium": {
+      "name": "Jie's AI Lab",
+      "use": "Compact independent English",
+      "light": "assets/brand/english-medium-light.svg",
+      "dark": "assets/brand/english-medium-dark.svg",
+      "recommendedWidthPx": 160
+    },
+    "short": {
+      "name": "Jie Lab",
+      "use": "English only and small size",
+      "light": "assets/brand/english-short-light.svg",
+      "dark": "assets/brand/english-short-dark.svg",
+      "recommendedWidthPx": 80
+    },
+    "clearSpace": "at least 0.25S; S=avatar square side in corresponding lockup",
+    "constraints": [
+      "Use shipped assets; preserve aspect ratio",
+      "Keep bilingual visible left/right bounds aligned",
+      "AI / ARTIFICIAL INTELLIGENCE uses #FFC53D",
+      "Choose light/dark counterpart; add clean plate over complex backgrounds"
+    ]
+  },
+  "characterIndex": "assets/brand/characters.json",
+  "curve": {
+    "path": "assets/brand/open-loop.svg",
+    "optional": true,
+    "meaning": "Demand, experimentation with retreat, renewed rise and value",
+    "construction": "Folium of Descartes sampled closed loop with tangent-matched extensions",
+    "prohibitedInterpretation": "Not measured business data",
+    "display": "No coordinate axes, formula or asymptote"
+  },
+  "sections": [
+    {
+      "id": "overall",
+      "title": "总体规范",
+      "human": "docs/human/overall.md",
+      "ai": "docs/ai/overall.md",
+      "resources": [
+        "guide/brand-manual.pdf",
+        "guide/brand-manual.md",
+        "guide/assets.html",
+        "design-tokens.json"
+      ]
+    },
+    {
+      "id": "identity",
+      "title": "标志与英文",
+      "human": "docs/human/identity.md",
+      "ai": "docs/ai/identity.md",
+      "resources": [
+        "assets/brand/logo-horizontal-light.svg",
+        "assets/brand/logo-horizontal-dark.svg",
+        "assets/brand/logo-compact-light.svg",
+        "assets/brand/english-long-light.svg",
+        "assets/brand/english-medium-light.svg",
+        "assets/brand/english-short-light.svg",
+        "assets/brand/logo-horizontal-light-2400.png",
+        "assets/brand/logo-layout.json"
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "颜色与主题",
+      "human": "docs/human/colors.md",
+      "ai": "docs/ai/colors.md",
+      "resources": [
+        "guide/ui-colors.json",
+        "guide/ui-colors.md",
+        "guide/ui-colors.pdf",
+        "ui/theme.mjs",
+        "design-tokens.css"
+      ]
+    },
+    {
+      "id": "systems-ui",
+      "title": "系统与产品 UI",
+      "human": "docs/human/systems-ui.md",
+      "ai": "docs/ai/systems-ui.md",
+      "resources": [
+        "guide/ui-colors.html",
+        "ui/theme.mjs",
+        "templates/product-light.html",
+        "templates/product-dark.html",
+        "ui/main.jsx",
+        "ui/package-lock.json"
+      ]
+    },
+    {
+      "id": "interaction",
+      "title": "交互与动效",
+      "human": "docs/human/interaction.md",
+      "ai": "docs/ai/interaction.md",
+      "resources": [
+        "templates/motion-demo.html",
+        "assets/brand/open-loop.svg",
+        "assets/brand/curve.json",
+        "design-tokens.json",
+        "templates/product-light.html"
+      ]
+    },
+    {
+      "id": "presentations",
+      "title": "PPT 与演示",
+      "human": "docs/human/presentations.md",
+      "ai": "docs/ai/presentations.md",
+      "resources": [
+        "templates/jie-lab-template.pptx",
+        "assets/brand/character-square-transparent.png",
+        "assets/brand/logo-horizontal-light-2400.png",
+        "assets/brand/open-loop.svg",
+        "assets/visuals/07-presentation.png"
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "文件、报告与印刷",
+      "human": "docs/human/documents.md",
+      "ai": "docs/ai/documents.md",
+      "resources": [
+        "templates/report-proposal.html",
+        "templates/exports/report-proposal.pdf",
+        "templates/workshop-worksheet.html",
+        "templates/exports/workshop-worksheet.pdf",
+        "templates/business-card-front.html",
+        "templates/business-card-back.html",
+        "templates/article.html"
+      ]
+    },
+    {
+      "id": "posters",
+      "title": "海报制作",
+      "human": "docs/human/posters.md",
+      "ai": "docs/ai/posters.md",
+      "resources": [
+        "templates/social-poster.html",
+        "templates/exports/social-poster.png",
+        "assets/brand/character-rectangle-yellow.png",
+        "assets/brand/character-rectangle-transparent.png",
+        "guide/assets.html"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社交、头像与封面",
+      "human": "docs/human/social.md",
+      "ai": "docs/ai/social.md",
+      "resources": [
+        "templates/social-cover.html",
+        "templates/exports/social-cover.png",
+        "assets/brand/avatar-256.png",
+        "assets/brand/avatar-1024.png",
+        "assets/brand/characters.json",
+        "templates/email-signature.html"
+      ]
+    },
+    {
+      "id": "video",
+      "title": "视频、字幕与片尾",
+      "human": "docs/human/video.md",
+      "ai": "docs/ai/video.md",
+      "resources": [
+        "templates/video-cover-landscape.html",
+        "templates/video-cover-portrait.html",
+        "templates/video-subtitle-landscape.html",
+        "templates/video-subtitle-portrait.html",
+        "templates/video-endcard-landscape.html",
+        "templates/video-endcard-portrait.html"
+      ]
+    },
+    {
+      "id": "characters",
+      "title": "人物、缩略图与大图",
+      "human": "docs/human/characters.md",
+      "ai": "docs/ai/characters.md",
+      "resources": [
+        "guide/assets.html",
+        "assets/brand/characters.json",
+        "assets/brand/character-square-transparent.png",
+        "assets/brand/character-rectangle-transparent.png",
+        "assets/brand/character-square-yellow.png",
+        "assets/brand/character-rectangle-blue.png"
+      ]
+    },
+    {
+      "id": "cobrand",
+      "title": "成员与联合品牌",
+      "human": "docs/human/cobrand.md",
+      "ai": "docs/ai/cobrand.md",
+      "resources": [
+        "templates/member-profile.html",
+        "templates/cobrand-project.html",
+        "guide/brand-manual.md"
+      ]
+    }
+  ],
+  "assetIndex": "spec/resources.json",
+  "repository": "https://github.com/liunoly-design/JieLabVI",
+  "rawBase": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/"
+}

@@ -1,0 +1,1603 @@
+{
+  "version": "3.0.0",
+  "repository": "https://github.com/liunoly-design/JieLabVI",
+  "rawBase": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/",
+  "sections": [
+    {
+      "id": "overall",
+      "title": "总体规范",
+      "human": "docs/human/overall.md",
+      "ai": "docs/ai/overall.md",
+      "resources": [
+        "guide/brand-manual.pdf",
+        "guide/brand-manual.md",
+        "guide/assets.html",
+        "design-tokens.json"
+      ]
+    },
+    {
+      "id": "identity",
+      "title": "标志与英文",
+      "human": "docs/human/identity.md",
+      "ai": "docs/ai/identity.md",
+      "resources": [
+        "assets/brand/logo-horizontal-light.svg",
+        "assets/brand/logo-horizontal-dark.svg",
+        "assets/brand/logo-compact-light.svg",
+        "assets/brand/english-long-light.svg",
+        "assets/brand/english-medium-light.svg",
+        "assets/brand/english-short-light.svg",
+        "assets/brand/logo-horizontal-light-2400.png",
+        "assets/brand/logo-layout.json"
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "颜色与主题",
+      "human": "docs/human/colors.md",
+      "ai": "docs/ai/colors.md",
+      "resources": [
+        "guide/ui-colors.json",
+        "guide/ui-colors.md",
+        "guide/ui-colors.pdf",
+        "ui/theme.mjs",
+        "design-tokens.css"
+      ]
+    },
+    {
+      "id": "systems-ui",
+      "title": "系统与产品 UI",
+      "human": "docs/human/systems-ui.md",
+      "ai": "docs/ai/systems-ui.md",
+      "resources": [
+        "guide/ui-colors.html",
+        "ui/theme.mjs",
+        "templates/product-light.html",
+        "templates/product-dark.html",
+        "ui/main.jsx",
+        "ui/package-lock.json"
+      ]
+    },
+    {
+      "id": "interaction",
+      "title": "交互与动效",
+      "human": "docs/human/interaction.md",
+      "ai": "docs/ai/interaction.md",
+      "resources": [
+        "templates/motion-demo.html",
+        "assets/brand/open-loop.svg",
+        "assets/brand/curve.json",
+        "design-tokens.json",
+        "templates/product-light.html"
+      ]
+    },
+    {
+      "id": "presentations",
+      "title": "PPT 与演示",
+      "human": "docs/human/presentations.md",
+      "ai": "docs/ai/presentations.md",
+      "resources": [
+        "templates/jie-lab-template.pptx",
+        "assets/brand/character-square-transparent.png",
+        "assets/brand/logo-horizontal-light-2400.png",
+        "assets/brand/open-loop.svg",
+        "assets/visuals/07-presentation.png"
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "文件、报告与印刷",
+      "human": "docs/human/documents.md",
+      "ai": "docs/ai/documents.md",
+      "resources": [
+        "templates/report-proposal.html",
+        "templates/exports/report-proposal.pdf",
+        "templates/workshop-worksheet.html",
+        "templates/exports/workshop-worksheet.pdf",
+        "templates/business-card-front.html",
+        "templates/business-card-back.html",
+        "templates/article.html"
+      ]
+    },
+    {
+      "id": "posters",
+      "title": "海报制作",
+      "human": "docs/human/posters.md",
+      "ai": "docs/ai/posters.md",
+      "resources": [
+        "templates/social-poster.html",
+        "templates/exports/social-poster.png",
+        "assets/brand/character-rectangle-yellow.png",
+        "assets/brand/character-rectangle-transparent.png",
+        "guide/assets.html"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "社交、头像与封面",
+      "human": "docs/human/social.md",
+      "ai": "docs/ai/social.md",
+      "resources": [
+        "templates/social-cover.html",
+        "templates/exports/social-cover.png",
+        "assets/brand/avatar-256.png",
+        "assets/brand/avatar-1024.png",
+        "assets/brand/characters.json",
+        "templates/email-signature.html"
+      ]
+    },
+    {
+      "id": "video",
+      "title": "视频、字幕与片尾",
+      "human": "docs/human/video.md",
+      "ai": "docs/ai/video.md",
+      "resources": [
+        "templates/video-cover-landscape.html",
+        "templates/video-cover-portrait.html",
+        "templates/video-subtitle-landscape.html",
+        "templates/video-subtitle-portrait.html",
+        "templates/video-endcard-landscape.html",
+        "templates/video-endcard-portrait.html"
+      ]
+    },
+    {
+      "id": "characters",
+      "title": "人物、缩略图与大图",
+      "human": "docs/human/characters.md",
+      "ai": "docs/ai/characters.md",
+      "resources": [
+        "guide/assets.html",
+        "assets/brand/characters.json",
+        "assets/brand/character-square-transparent.png",
+        "assets/brand/character-rectangle-transparent.png",
+        "assets/brand/character-square-yellow.png",
+        "assets/brand/character-rectangle-blue.png"
+      ]
+    },
+    {
+      "id": "cobrand",
+      "title": "成员与联合品牌",
+      "human": "docs/human/cobrand.md",
+      "ai": "docs/ai/cobrand.md",
+      "resources": [
+        "templates/member-profile.html",
+        "templates/cobrand-project.html",
+        "guide/brand-manual.md"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "assets/brand/ai-adoption-curve-1200.png",
+      "extension": ".png",
+      "bytes": 26106,
+      "sha256": "f762546f5b6204f7af257d6c0cf772d5830754b4a19cdff7a0946b6ac42dbd81",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/ai-adoption-curve-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/ai-adoption-curve-1200.png"
+    },
+    {
+      "path": "assets/brand/ai-adoption-curve-2400.png",
+      "extension": ".png",
+      "bytes": 58728,
+      "sha256": "565450aca94c00a4ccdb361accb60c51e7bd078ddac5a3c002d76f0233b2c176",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/ai-adoption-curve-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/ai-adoption-curve-2400.png"
+    },
+    {
+      "path": "assets/brand/ai-adoption-curve.pdf",
+      "extension": ".pdf",
+      "bytes": 4966,
+      "sha256": "6473f016ff79a6e5cef02745e3cdc76602bdc2fa8e35d3dc782fd15919a53ce5",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/ai-adoption-curve.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/ai-adoption-curve.pdf"
+    },
+    {
+      "path": "assets/brand/ai-adoption-curve.svg",
+      "extension": ".svg",
+      "bytes": 13807,
+      "sha256": "ebd4c50866c1c2fbc13e2e5645b279e48df533e26d7876f7bc882bc91a63e8a9",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/ai-adoption-curve.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/ai-adoption-curve.svg"
+    },
+    {
+      "path": "assets/brand/avatar-1024.png",
+      "extension": ".png",
+      "bytes": 937332,
+      "sha256": "8b7cfd7689ac1afe011deca91bc310b7507b8b15db6963bd770a726d14018997",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/avatar-1024.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/avatar-1024.png"
+    },
+    {
+      "path": "assets/brand/avatar-128.png",
+      "extension": ".png",
+      "bytes": 26108,
+      "sha256": "4e9d071a10cc12c7d7029dd8987a27c5b73260be315f75adcaad136d0021c82c",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/avatar-128.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/avatar-128.png"
+    },
+    {
+      "path": "assets/brand/avatar-256.png",
+      "extension": ".png",
+      "bytes": 87163,
+      "sha256": "40cbdddb9bf5d10ad6b3a4418d7fdcdaa4572cdf9cb0e1cfc3fa5df89df4b3e0",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/avatar-256.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/avatar-256.png"
+    },
+    {
+      "path": "assets/brand/avatar-512.png",
+      "extension": ".png",
+      "bytes": 298062,
+      "sha256": "2c2ee78419b3ca1a14153bbbf31a70029f3986ba60de07fc4c76de7368a4f914",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/avatar-512.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/avatar-512.png"
+    },
+    {
+      "path": "assets/brand/avatar-64.png",
+      "extension": ".png",
+      "bytes": 7835,
+      "sha256": "ab3aadc2724e89550bc78526d0afc63b6de459458f95fe7b86e8046af66b0dcc",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/avatar-64.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/avatar-64.png"
+    },
+    {
+      "path": "assets/brand/avatar.pdf",
+      "extension": ".pdf",
+      "bytes": 1579419,
+      "sha256": "93101e090539030ca4caa6489d87fad39f339619852ede1f2d1a3c175fc1efa6",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/avatar.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/avatar.pdf"
+    },
+    {
+      "path": "assets/brand/avatar.svg",
+      "extension": ".svg",
+      "bytes": 1926377,
+      "sha256": "80a923493d874fa16686c5ae37c3c9397c541b38b5ae546ab35a0109859de415",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/avatar.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/avatar.svg"
+    },
+    {
+      "path": "assets/brand/character-master.png",
+      "extension": ".png",
+      "bytes": 1444456,
+      "sha256": "eefdeb4d510fb8b0ce6b9b8b73052a5b674f4af9e47f54476e1c973be628352c",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-master.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-master.png"
+    },
+    {
+      "path": "assets/brand/character-rectangle-blue-thumb-256.png",
+      "extension": ".png",
+      "bytes": 38016,
+      "sha256": "e52ab2c3387bf80770e1ce6189d4e0d1f33598252ef5c1f96554ac314e7933f7",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-rectangle-blue-thumb-256.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-rectangle-blue-thumb-256.png"
+    },
+    {
+      "path": "assets/brand/character-rectangle-blue.png",
+      "extension": ".png",
+      "bytes": 1542878,
+      "sha256": "8c6a1d6e21c8e407ebac89b09efc0f1722efe5c2f350709eec3833af40c94ebf",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-rectangle-blue.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-rectangle-blue.png"
+    },
+    {
+      "path": "assets/brand/character-rectangle-transparent-thumb-256.png",
+      "extension": ".png",
+      "bytes": 23032,
+      "sha256": "8dc3f2ab99d93e47a92475b82d98652918b505962e1f8ac6d3d8bef146af25cf",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-rectangle-transparent-thumb-256.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-rectangle-transparent-thumb-256.png"
+    },
+    {
+      "path": "assets/brand/character-rectangle-transparent.png",
+      "extension": ".png",
+      "bytes": 743942,
+      "sha256": "f5ef06a3b0f6d9259fb223b2cda60f1e4bf2768a4eff3bd6088f1a01ad017b46",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-rectangle-transparent.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-rectangle-transparent.png"
+    },
+    {
+      "path": "assets/brand/character-rectangle-yellow-thumb-256.png",
+      "extension": ".png",
+      "bytes": 38216,
+      "sha256": "e7edcaf68d4b03f4bb147cc13a2a0306b2db45c6d1a1810fefa5d7981504a7c1",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-rectangle-yellow-thumb-256.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-rectangle-yellow-thumb-256.png"
+    },
+    {
+      "path": "assets/brand/character-rectangle-yellow.png",
+      "extension": ".png",
+      "bytes": 1537775,
+      "sha256": "556bc147764cf6cef975d6aecd6ee55d326296eb626c995368e52391e29ab35a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-rectangle-yellow.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-rectangle-yellow.png"
+    },
+    {
+      "path": "assets/brand/character-square-blue-thumb-256.png",
+      "extension": ".png",
+      "bytes": 79545,
+      "sha256": "4e4572d7357b3c46530d216d7a5b36d1cf23fea07a59f1e72664bdfb6643746e",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-square-blue-thumb-256.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-square-blue-thumb-256.png"
+    },
+    {
+      "path": "assets/brand/character-square-blue.png",
+      "extension": ".png",
+      "bytes": 1765152,
+      "sha256": "75a9704dbbe8e0dd96d714c6e194fecb9e0dd932604cd033cb60f00c9647c982",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-square-blue.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-square-blue.png"
+    },
+    {
+      "path": "assets/brand/character-square-transparent-thumb-256.png",
+      "extension": ".png",
+      "bytes": 62835,
+      "sha256": "9fabdb3f4293810a2ccba6aa7927e4c754ce79fc4f2d34fc57373aeaf3c36c3a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-square-transparent-thumb-256.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-square-transparent-thumb-256.png"
+    },
+    {
+      "path": "assets/brand/character-square-transparent.png",
+      "extension": ".png",
+      "bytes": 1363529,
+      "sha256": "00c11b49e51f7eea313254ad77b9ff30c7df0fefeb0c7435eb0661c73db58e33",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-square-transparent.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-square-transparent.png"
+    },
+    {
+      "path": "assets/brand/character-square-yellow-thumb-256.png",
+      "extension": ".png",
+      "bytes": 82460,
+      "sha256": "f35a8413abae909837941a1146b058b9ca70450c971d8fb88723065023d0853c",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-square-yellow-thumb-256.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-square-yellow-thumb-256.png"
+    },
+    {
+      "path": "assets/brand/character-square-yellow.png",
+      "extension": ".png",
+      "bytes": 1823534,
+      "sha256": "a58edac1aabfe8b551b71c49a7e1edcabd656e92d30dd12f9d84ab4c2d6a6a65",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/character-square-yellow.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/character-square-yellow.png"
+    },
+    {
+      "path": "assets/brand/characters.json",
+      "extension": ".json",
+      "bytes": 1527,
+      "sha256": "4891e1d4b23b233885d77ce00901b61b0e8c2901790cc00477c37fa82c61548c",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/characters.json",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/characters.json"
+    },
+    {
+      "path": "assets/brand/curve.json",
+      "extension": ".json",
+      "bytes": 46003,
+      "sha256": "e6d08fdf6d2b2ac652c67625438d4f3d1144ad64c1e88a0e83db2c8e952e37c1",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/curve.json",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/curve.json"
+    },
+    {
+      "path": "assets/brand/english-long-dark-1200.png",
+      "extension": ".png",
+      "bytes": 16720,
+      "sha256": "1fc144dd0f3692cdb0f320104466f6dd6b3b8f1ee9c878d76eed43134f7db859",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-long-dark-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-long-dark-1200.png"
+    },
+    {
+      "path": "assets/brand/english-long-dark-2400.png",
+      "extension": ".png",
+      "bytes": 32787,
+      "sha256": "581af34a2f27ebb62b6cbdacc71a3d3d0ec36c5e094fffab48001f8ff34b508a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-long-dark-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-long-dark-2400.png"
+    },
+    {
+      "path": "assets/brand/english-long-dark.pdf",
+      "extension": ".pdf",
+      "bytes": 6503,
+      "sha256": "b32d6e03d6884f5d3806a9eb1a395449db0045205e721bda01109f7f37abcc8d",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-long-dark.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-long-dark.pdf"
+    },
+    {
+      "path": "assets/brand/english-long-dark.svg",
+      "extension": ".svg",
+      "bytes": 8643,
+      "sha256": "1dd87ce7bb5fa15d5e86dd4d960c73eb0a44239f94cb5aa3c0e941f8d72d44f9",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-long-dark.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-long-dark.svg"
+    },
+    {
+      "path": "assets/brand/english-long-light-1200.png",
+      "extension": ".png",
+      "bytes": 17051,
+      "sha256": "c4260e254407fd342d2e2ddb1fae1817d37d40275f98d79988150ba2258921dc",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-long-light-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-long-light-1200.png"
+    },
+    {
+      "path": "assets/brand/english-long-light-2400.png",
+      "extension": ".png",
+      "bytes": 33464,
+      "sha256": "fb518b983d06829cc5f347acc753ad8f92f380de16677d8e8b70656682831f15",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-long-light-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-long-light-2400.png"
+    },
+    {
+      "path": "assets/brand/english-long-light.pdf",
+      "extension": ".pdf",
+      "bytes": 6504,
+      "sha256": "2eb877521aee3fdb86d0aa1fc2965dd1986c1ac12135d7a8cfd556b3d790c140",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-long-light.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-long-light.pdf"
+    },
+    {
+      "path": "assets/brand/english-long-light.svg",
+      "extension": ".svg",
+      "bytes": 8643,
+      "sha256": "c8968ce35f12eb4fab00228d2fe8a80a14809c697caeb772dc651a5185fb7a0d",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-long-light.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-long-light.svg"
+    },
+    {
+      "path": "assets/brand/english-medium-dark-1200.png",
+      "extension": ".png",
+      "bytes": 22403,
+      "sha256": "8429f2ac0772ce66c280ae82c4557a19c251ead20e362f58672ee50525b06ccc",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-medium-dark-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-medium-dark-1200.png"
+    },
+    {
+      "path": "assets/brand/english-medium-dark-2400.png",
+      "extension": ".png",
+      "bytes": 47860,
+      "sha256": "2deee97ea64f64276da69f79965bc9e4657d6a5cbe61a414f55d07d369bef687",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-medium-dark-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-medium-dark-2400.png"
+    },
+    {
+      "path": "assets/brand/english-medium-dark.pdf",
+      "extension": ".pdf",
+      "bytes": 4080,
+      "sha256": "765dcb18aa387b9cac3d083c18b63d88b44dbf700cb1f655d865882e709f597d",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-medium-dark.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-medium-dark.pdf"
+    },
+    {
+      "path": "assets/brand/english-medium-dark.svg",
+      "extension": ".svg",
+      "bytes": 4161,
+      "sha256": "d67173a2d34b4fab18cd06e59c8af1502764c1edd715942bd8074967e6bae271",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-medium-dark.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-medium-dark.svg"
+    },
+    {
+      "path": "assets/brand/english-medium-light-1200.png",
+      "extension": ".png",
+      "bytes": 23472,
+      "sha256": "da9938dd995c4bbb4ed2757e2a99c69f55c1d5969bb7d6e0494a83a6430d29ac",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-medium-light-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-medium-light-1200.png"
+    },
+    {
+      "path": "assets/brand/english-medium-light-2400.png",
+      "extension": ".png",
+      "bytes": 49929,
+      "sha256": "39a32e325c1bf2d58dbcdbc838ab8c7edacdb9fd3ab3f934ed119df922b7cb44",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-medium-light-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-medium-light-2400.png"
+    },
+    {
+      "path": "assets/brand/english-medium-light.pdf",
+      "extension": ".pdf",
+      "bytes": 4080,
+      "sha256": "6513e1e606be3625ddad00488f4b083a42836bbfca79acf332cd08d6d0996523",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-medium-light.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-medium-light.pdf"
+    },
+    {
+      "path": "assets/brand/english-medium-light.svg",
+      "extension": ".svg",
+      "bytes": 4161,
+      "sha256": "ba7540239afec83d9f986948779f3d4aea95562f20f830b39f0457bdf9f996c4",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-medium-light.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-medium-light.svg"
+    },
+    {
+      "path": "assets/brand/english-short-dark-1200.png",
+      "extension": ".png",
+      "bytes": 22725,
+      "sha256": "9737bd15c170215f15c50444841c911c9ad80ff5abbdd833343c9181b895b936",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-short-dark-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-short-dark-1200.png"
+    },
+    {
+      "path": "assets/brand/english-short-dark-2400.png",
+      "extension": ".png",
+      "bytes": 49232,
+      "sha256": "a8a0adec8fc68ff0c784fddc8020f798cb2fad4048989a4049b849a8d332139e",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-short-dark-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-short-dark-2400.png"
+    },
+    {
+      "path": "assets/brand/english-short-dark.pdf",
+      "extension": ".pdf",
+      "bytes": 3294,
+      "sha256": "8c255e9238a670ad1c6e1bdae03e2f65b4812a51cc53705121d7632060eb9d17",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-short-dark.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-short-dark.pdf"
+    },
+    {
+      "path": "assets/brand/english-short-dark.svg",
+      "extension": ".svg",
+      "bytes": 2952,
+      "sha256": "8fc1fd3629bf8fcae911c76c6bbf3a33b74d3e82f0fc1a74e3c3b7d3b90a39f6",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-short-dark.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-short-dark.svg"
+    },
+    {
+      "path": "assets/brand/english-short-light-1200.png",
+      "extension": ".png",
+      "bytes": 23938,
+      "sha256": "29a4a193bce434cfb4ba5408f5a4a82fe58def177487991dc52ffe55b7284a2e",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-short-light-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-short-light-1200.png"
+    },
+    {
+      "path": "assets/brand/english-short-light-2400.png",
+      "extension": ".png",
+      "bytes": 51699,
+      "sha256": "aa252f8dd168b7b290edb9a4de78663c410712e5b5f7d3ec66526ab1cab99a56",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-short-light-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-short-light-2400.png"
+    },
+    {
+      "path": "assets/brand/english-short-light.pdf",
+      "extension": ".pdf",
+      "bytes": 3296,
+      "sha256": "7a6e0946bbe0ab41d2aa7319c6a78843c1da6fc6359bcaf553c93d152801e6f0",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-short-light.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-short-light.pdf"
+    },
+    {
+      "path": "assets/brand/english-short-light.svg",
+      "extension": ".svg",
+      "bytes": 2952,
+      "sha256": "53151c6e0ba888afd1402708f2be000b4b03f7dc535f147e1837bdac010547c0",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/english-short-light.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/english-short-light.svg"
+    },
+    {
+      "path": "assets/brand/logo-compact-dark-1200.png",
+      "extension": ".png",
+      "bytes": 269862,
+      "sha256": "a4ce0ada91a2f9ff3e14da7de5254b83a9c894c514e4a7a0f5f8052623241a36",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-compact-dark-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-compact-dark-1200.png"
+    },
+    {
+      "path": "assets/brand/logo-compact-dark-2400.png",
+      "extension": ".png",
+      "bytes": 854138,
+      "sha256": "85127beda2cfac158837e5ee55bbca4215ad02e8a226f569f955c05952a1498a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-compact-dark-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-compact-dark-2400.png"
+    },
+    {
+      "path": "assets/brand/logo-compact-dark.pdf",
+      "extension": ".pdf",
+      "bytes": 1582572,
+      "sha256": "ecbac3393a0f9e4b5ee16441ceb1df74e908171a05220465be6d53d4eeef9cbe",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-compact-dark.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-compact-dark.pdf"
+    },
+    {
+      "path": "assets/brand/logo-compact-dark.svg",
+      "extension": ".svg",
+      "bytes": 1930413,
+      "sha256": "7cc1bd652aedbd15447824a4b83f5aa88b3261b306c6386545e48f65556bb9ef",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-compact-dark.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-compact-dark.svg"
+    },
+    {
+      "path": "assets/brand/logo-compact-light-1200.png",
+      "extension": ".png",
+      "bytes": 270808,
+      "sha256": "6df56741e04806fd12c726faa4bcacffd2e4ba1f4701228814d8889acfddf433",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-compact-light-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-compact-light-1200.png"
+    },
+    {
+      "path": "assets/brand/logo-compact-light-2400.png",
+      "extension": ".png",
+      "bytes": 856131,
+      "sha256": "af97ee38e08904c5b5c43e226b29d92c485dad20e3c5a3cb96cf874521831a84",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-compact-light-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-compact-light-2400.png"
+    },
+    {
+      "path": "assets/brand/logo-compact-light.pdf",
+      "extension": ".pdf",
+      "bytes": 1582574,
+      "sha256": "fd7101c7995ca2735bc8c75963b6c2241885a54cde006342eaafd4e4ad463424",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-compact-light.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-compact-light.pdf"
+    },
+    {
+      "path": "assets/brand/logo-compact-light.svg",
+      "extension": ".svg",
+      "bytes": 1930413,
+      "sha256": "692a158219fcabfa80107f3fe773500b163f552b1521de3c6ec69d6cc5e33771",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-compact-light.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-compact-light.svg"
+    },
+    {
+      "path": "assets/brand/logo-editable-1200.png",
+      "extension": ".png",
+      "bytes": 170015,
+      "sha256": "b0d0ed394b9b9d270714cdf9376af8fc09484f30de49cf621e7615002be3a145",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-editable-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-editable-1200.png"
+    },
+    {
+      "path": "assets/brand/logo-editable-2400.png",
+      "extension": ".png",
+      "bytes": 563690,
+      "sha256": "76c119de9b2a3349c8f126a2a9e7c64f95c20a3c9bd005946c99bf0bca100953",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-editable-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-editable-2400.png"
+    },
+    {
+      "path": "assets/brand/logo-editable.pdf",
+      "extension": ".pdf",
+      "bytes": 1594025,
+      "sha256": "50e80f7f750ee561d2fb45abad4a48606cd81239a93369bd88e5c4404ded9957",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-editable.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-editable.pdf"
+    },
+    {
+      "path": "assets/brand/logo-editable.svg",
+      "extension": ".svg",
+      "bytes": 1926805,
+      "sha256": "19e664193ff907fe8a6e0f0387188c0ba0f070c8b039e0d23543f98dc350ecc4",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-editable.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-editable.svg"
+    },
+    {
+      "path": "assets/brand/logo-horizontal-dark-1200.png",
+      "extension": ".png",
+      "bytes": 188387,
+      "sha256": "8e5d2e5c94ba0cc45ae802a5bf439427ff790a5006003098f9f467d3a10da36e",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-horizontal-dark-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-horizontal-dark-1200.png"
+    },
+    {
+      "path": "assets/brand/logo-horizontal-dark-2400.png",
+      "extension": ".png",
+      "bytes": 601629,
+      "sha256": "98a8516941852bd0d0df0454412e8fcb76237f0055c069b510728d6486e1c6cd",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-horizontal-dark-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-horizontal-dark-2400.png"
+    },
+    {
+      "path": "assets/brand/logo-horizontal-dark.pdf",
+      "extension": ".pdf",
+      "bytes": 1590014,
+      "sha256": "5db25f5558fd3d42181ce950c011cc7febdfce8a753f00359da8b86536e3a0b4",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-horizontal-dark.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-horizontal-dark.pdf"
+    },
+    {
+      "path": "assets/brand/logo-horizontal-dark.svg",
+      "extension": ".svg",
+      "bytes": 1953551,
+      "sha256": "7007227881e96cd79191649ee2b3879696a78527fea0388331b1aa3d2acf03ee",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-horizontal-dark.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-horizontal-dark.svg"
+    },
+    {
+      "path": "assets/brand/logo-horizontal-light-1200.png",
+      "extension": ".png",
+      "bytes": 190479,
+      "sha256": "caf0f5a5451b33f824bb46050b092f6107c9d5c0fff97db1d92268f48fd202b0",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-horizontal-light-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-horizontal-light-1200.png"
+    },
+    {
+      "path": "assets/brand/logo-horizontal-light-2400.png",
+      "extension": ".png",
+      "bytes": 605854,
+      "sha256": "ddd49a65d8916bac1cd68c0aae8a0a2b550a2e02c510011138c7610166632542",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-horizontal-light-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-horizontal-light-2400.png"
+    },
+    {
+      "path": "assets/brand/logo-horizontal-light.pdf",
+      "extension": ".pdf",
+      "bytes": 1590015,
+      "sha256": "e66ecf8b97d821bf9569fd8872c7874cd64f970f12a00c3540b821929fa808ed",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-horizontal-light.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-horizontal-light.pdf"
+    },
+    {
+      "path": "assets/brand/logo-horizontal-light.svg",
+      "extension": ".svg",
+      "bytes": 1953551,
+      "sha256": "c88174fa5b43d73e853bad629169166ae1f77ffe42b3b9007ea8899b9da5a295",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-horizontal-light.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-horizontal-light.svg"
+    },
+    {
+      "path": "assets/brand/logo-layout.json",
+      "extension": ".json",
+      "bytes": 770,
+      "sha256": "4647dba72495784e9326675dfe4c8657c54024a2bdc25a5c2d27196340366387",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-layout.json",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-layout.json"
+    },
+    {
+      "path": "assets/brand/logo-stacked-dark-1200.png",
+      "extension": ".png",
+      "bytes": 322533,
+      "sha256": "b9769b5ec84d3dc5d1d7fca8836b2f19a6e4235c11a3fbbabc5d4546bac96e0c",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-stacked-dark-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-stacked-dark-1200.png"
+    },
+    {
+      "path": "assets/brand/logo-stacked-dark-2400.png",
+      "extension": ".png",
+      "bytes": 978381,
+      "sha256": "44a347f516a6bc7d121b4943f7cb05650c24b73886defb80247ee2f3e65e3db3",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-stacked-dark-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-stacked-dark-2400.png"
+    },
+    {
+      "path": "assets/brand/logo-stacked-dark.pdf",
+      "extension": ".pdf",
+      "bytes": 1589965,
+      "sha256": "2732e9d89059358dc0e4b1ad4e3c090a66df42af090b01f58ac74571d4028305",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-stacked-dark.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-stacked-dark.pdf"
+    },
+    {
+      "path": "assets/brand/logo-stacked-dark.svg",
+      "extension": ".svg",
+      "bytes": 1953581,
+      "sha256": "1022955fa5bb0fa39bda6388763f4346288da9c929c38d2e0a27f6fb95e260db",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-stacked-dark.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-stacked-dark.svg"
+    },
+    {
+      "path": "assets/brand/logo-stacked-light-1200.png",
+      "extension": ".png",
+      "bytes": 324227,
+      "sha256": "03addeab1c66ea64a627361c6b1638d0eebbfd1c762a00f57b21a35526e3e63b",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-stacked-light-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-stacked-light-1200.png"
+    },
+    {
+      "path": "assets/brand/logo-stacked-light-2400.png",
+      "extension": ".png",
+      "bytes": 981611,
+      "sha256": "dbf0bf4fe900b20fc1dcf3b3c96e1d4a25584dbf4e19491fba23199535422b44",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-stacked-light-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-stacked-light-2400.png"
+    },
+    {
+      "path": "assets/brand/logo-stacked-light.pdf",
+      "extension": ".pdf",
+      "bytes": 1589966,
+      "sha256": "3de63fa004229cbe7b243d0897631c7cc702d4a6de87051e85482bd48c92985f",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-stacked-light.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-stacked-light.pdf"
+    },
+    {
+      "path": "assets/brand/logo-stacked-light.svg",
+      "extension": ".svg",
+      "bytes": 1953581,
+      "sha256": "7411a35c8a43e4ad0f9d68500e59b8fdae3bf5e7c34ae50f1fdcff09d539bf51",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/logo-stacked-light.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/logo-stacked-light.svg"
+    },
+    {
+      "path": "assets/brand/open-loop-1200.png",
+      "extension": ".png",
+      "bytes": 26106,
+      "sha256": "f762546f5b6204f7af257d6c0cf772d5830754b4a19cdff7a0946b6ac42dbd81",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/open-loop-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/open-loop-1200.png"
+    },
+    {
+      "path": "assets/brand/open-loop-2400.png",
+      "extension": ".png",
+      "bytes": 58728,
+      "sha256": "565450aca94c00a4ccdb361accb60c51e7bd078ddac5a3c002d76f0233b2c176",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/open-loop-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/open-loop-2400.png"
+    },
+    {
+      "path": "assets/brand/open-loop.pdf",
+      "extension": ".pdf",
+      "bytes": 4966,
+      "sha256": "262962e6c5dd04ab96d1142997eee0214026c357881869722380c43bf96a1640",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/open-loop.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/open-loop.pdf"
+    },
+    {
+      "path": "assets/brand/open-loop.svg",
+      "extension": ".svg",
+      "bytes": 13807,
+      "sha256": "ebd4c50866c1c2fbc13e2e5645b279e48df533e26d7876f7bc882bc91a63e8a9",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/open-loop.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/open-loop.svg"
+    },
+    {
+      "path": "assets/brand/wordmark-dark-1200.png",
+      "extension": ".png",
+      "bytes": 46752,
+      "sha256": "50c4d7572d804d662259b18f4fe57b5b02d536295500a11f433701da7ac2a941",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-dark-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-dark-1200.png"
+    },
+    {
+      "path": "assets/brand/wordmark-dark-2400.png",
+      "extension": ".png",
+      "bytes": 96331,
+      "sha256": "763ce007b37346f177edf9a7939879e11484c4f6ddc2ab58365213a7ad6d8277",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-dark-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-dark-2400.png"
+    },
+    {
+      "path": "assets/brand/wordmark-dark.pdf",
+      "extension": ".pdf",
+      "bytes": 11395,
+      "sha256": "e350974231b7d06360a0bf85641c8793fd11547e6e23c2fc1d1663cdaa8f4370",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-dark.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-dark.pdf"
+    },
+    {
+      "path": "assets/brand/wordmark-dark.svg",
+      "extension": ".svg",
+      "bytes": 27338,
+      "sha256": "42fe704c4c60013a07fa31464ae3ee3cae8668ca5219151f4c86e5b192074f24",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-dark.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-dark.svg"
+    },
+    {
+      "path": "assets/brand/wordmark-light-1200.png",
+      "extension": ".png",
+      "bytes": 48775,
+      "sha256": "378893fb4e7314caffc4579e7e07423114f4d6bc089e24260b845207a4a85b96",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-light-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-light-1200.png"
+    },
+    {
+      "path": "assets/brand/wordmark-light-2400.png",
+      "extension": ".png",
+      "bytes": 100065,
+      "sha256": "c1db66767c4cc75d70d20621f7bc70bf700ec3fa2b7955edb3738a8366337e40",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-light-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-light-2400.png"
+    },
+    {
+      "path": "assets/brand/wordmark-light.pdf",
+      "extension": ".pdf",
+      "bytes": 11394,
+      "sha256": "0ff2158fc038299a2106472a67a421d7293d785bf9d728962b9cfc1baadae639",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-light.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-light.pdf"
+    },
+    {
+      "path": "assets/brand/wordmark-light.svg",
+      "extension": ".svg",
+      "bytes": 27338,
+      "sha256": "1738c39e4be5ae70d07ba719269171c82d21b9d8b13945793705d9d248789eb1",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-light.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-light.svg"
+    },
+    {
+      "path": "assets/brand/wordmark-mono-1200.png",
+      "extension": ".png",
+      "bytes": 49669,
+      "sha256": "dd41bcc1203ed9bf37bdb93343dd062fb7057cdd95071a0a74a540ea28b8b4ae",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-mono-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-mono-1200.png"
+    },
+    {
+      "path": "assets/brand/wordmark-mono-2400.png",
+      "extension": ".png",
+      "bytes": 101644,
+      "sha256": "16bc497f7aa64d714751fd4a4bc1b521be04aae615531a745dd247e19cc59b05",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-mono-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-mono-2400.png"
+    },
+    {
+      "path": "assets/brand/wordmark-mono.pdf",
+      "extension": ".pdf",
+      "bytes": 11368,
+      "sha256": "d458269e725c895916cd2697d319596cb917ac0730e8bfc83f2d1203ebbad05c",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-mono.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-mono.pdf"
+    },
+    {
+      "path": "assets/brand/wordmark-mono.svg",
+      "extension": ".svg",
+      "bytes": 27338,
+      "sha256": "f51ed528bc63d83fda9260efb4ba3f2826d857b4acaee43650de0b6635e97c0f",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-mono.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-mono.svg"
+    },
+    {
+      "path": "assets/brand/wordmark-white-1200.png",
+      "extension": ".png",
+      "bytes": 46454,
+      "sha256": "4ed552d3153e561d025e294e2a90d8e0182c97028acdc1d60d5cb9e83dfed32c",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-white-1200.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-white-1200.png"
+    },
+    {
+      "path": "assets/brand/wordmark-white-2400.png",
+      "extension": ".png",
+      "bytes": 95951,
+      "sha256": "e33141e88df4cae4fdcdb36117a59f11dc173de5078ef5938e6e5197766ca790",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-white-2400.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-white-2400.png"
+    },
+    {
+      "path": "assets/brand/wordmark-white.pdf",
+      "extension": ".pdf",
+      "bytes": 11368,
+      "sha256": "a96623062d2e9b75bd5367cf60144f2ff15f1f135daf48f2749aff501e14b364",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-white.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-white.pdf"
+    },
+    {
+      "path": "assets/brand/wordmark-white.svg",
+      "extension": ".svg",
+      "bytes": 27338,
+      "sha256": "012543e7fd8ef3b803ac2be10d469a5440d0659d6c26bdf452adf4cf2cf85872",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/brand/wordmark-white.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/brand/wordmark-white.svg"
+    },
+    {
+      "path": "assets/fonts/Inter-OFL.txt",
+      "extension": ".txt",
+      "bytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/fonts/Inter-OFL.txt",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/fonts/Inter-OFL.txt"
+    },
+    {
+      "path": "assets/fonts/Noto-OFL.txt",
+      "extension": ".txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/fonts/Noto-OFL.txt",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/fonts/Noto-OFL.txt"
+    },
+    {
+      "path": "assets/fonts/NotoSansSC-Official-OFL.txt",
+      "extension": ".txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/fonts/NotoSansSC-Official-OFL.txt",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/fonts/NotoSansSC-Official-OFL.txt"
+    },
+    {
+      "path": "assets/fonts/NotoSansSC-Variable.ttf",
+      "extension": ".ttf",
+      "bytes": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/fonts/NotoSansSC-Variable.ttf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/fonts/NotoSansSC-Variable.ttf"
+    },
+    {
+      "path": "assets/fonts/lab-inter-0.ttf",
+      "extension": ".ttf",
+      "bytes": 33368,
+      "sha256": "8ed49d48a950cd257ea48cbfa36240d276d329a5f6ff0152e49d631c627a81be",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/fonts/lab-inter-0.ttf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/fonts/lab-inter-0.ttf"
+    },
+    {
+      "path": "assets/fonts/lab-inter-3.ttf",
+      "extension": ".ttf",
+      "bytes": 33484,
+      "sha256": "9c4b57f5d1142f756f2f4f463ecfaf55e9e9f91a49ad93cccabdfae6f4fefeef",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/fonts/lab-inter-3.ttf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/fonts/lab-inter-3.ttf"
+    },
+    {
+      "path": "assets/icons/agent.svg",
+      "extension": ".svg",
+      "bytes": 278,
+      "sha256": "1d4004b442186e5a816c97f144618497b9bbdce9d354db154c7dd87a7a72ef67",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/icons/agent.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/icons/agent.svg"
+    },
+    {
+      "path": "assets/icons/document.svg",
+      "extension": ".svg",
+      "bytes": 280,
+      "sha256": "a6e4eebbffbebf4512dba9626468ba1429c61c6b5700c811dea4a76eef49f0c2",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/icons/document.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/icons/document.svg"
+    },
+    {
+      "path": "assets/icons/experiment.svg",
+      "extension": ".svg",
+      "bytes": 299,
+      "sha256": "63295111c81acf7319bf3bb03dd77f4e3b4e6bd12a16369fb2ea4b66ee9e47d7",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/icons/experiment.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/icons/experiment.svg"
+    },
+    {
+      "path": "assets/icons/human.svg",
+      "extension": ".svg",
+      "bytes": 299,
+      "sha256": "5d0aff5489d19ee4feb1852283f0acbc5ea6200bb1914d3c3aca1561041fe2f8",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/icons/human.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/icons/human.svg"
+    },
+    {
+      "path": "assets/icons/need.svg",
+      "extension": ".svg",
+      "bytes": 271,
+      "sha256": "a737ca572b05894fcbf5cf29b9654672be8fa6f36806020cd1f04d048fb1f734",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/icons/need.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/icons/need.svg"
+    },
+    {
+      "path": "assets/icons/team.svg",
+      "extension": ".svg",
+      "bytes": 359,
+      "sha256": "9b6b4c0890aae4b5c3b6bfa84ece6c474426ba30c5ca3c8c5a61ff6135877f05",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/icons/team.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/icons/team.svg"
+    },
+    {
+      "path": "assets/icons/tool.svg",
+      "extension": ".svg",
+      "bytes": 301,
+      "sha256": "ba67896cb48e5119564064e0a9c490ad009c2f568fac1c0159080b0033e96910",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/icons/tool.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/icons/tool.svg"
+    },
+    {
+      "path": "assets/icons/value.svg",
+      "extension": ".svg",
+      "bytes": 274,
+      "sha256": "f0dd9a9f198d74cf59d08def3095326d5e0585aaa2bb766faec2a9fd71343949",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/icons/value.svg",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/icons/value.svg"
+    },
+    {
+      "path": "assets/visuals/01-cover.png",
+      "extension": ".png",
+      "bytes": 1839816,
+      "sha256": "9cfa475dc69e3763536277be8ce75c899e6fc07ba4b1086d7319659f918446ec",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/visuals/01-cover.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/visuals/01-cover.png"
+    },
+    {
+      "path": "assets/visuals/02-identity.png",
+      "extension": ".png",
+      "bytes": 1660890,
+      "sha256": "3e34e03a2033600e57377912b1a941b954184a35cd71d5cdf85c998c5340752c",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/visuals/02-identity.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/visuals/02-identity.png"
+    },
+    {
+      "path": "assets/visuals/03-foundations.png",
+      "extension": ".png",
+      "bytes": 1524917,
+      "sha256": "e343206bbd50af3cec2489f782dd093490baecd7cc023be60e5fbb08105b3aa8",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/visuals/03-foundations.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/visuals/03-foundations.png"
+    },
+    {
+      "path": "assets/visuals/04-stationery.png",
+      "extension": ".png",
+      "bytes": 1825173,
+      "sha256": "11627029e9dbe3355a1862f3be6f506a92ada4960cfa0890e69fa892eacd1dc5",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/visuals/04-stationery.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/visuals/04-stationery.png"
+    },
+    {
+      "path": "assets/visuals/05-social-video.png",
+      "extension": ".png",
+      "bytes": 1718595,
+      "sha256": "73c043dacf2ee09c2da10748e5c1f47630ea1c4a9d518302917aa8016ff3b8e5",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/visuals/05-social-video.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/visuals/05-social-video.png"
+    },
+    {
+      "path": "assets/visuals/06-digital.png",
+      "extension": ".png",
+      "bytes": 1742012,
+      "sha256": "59f3299c894d461b89ccdf8edd02daae7e50a9ed5df382239e04474776f207f4",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/visuals/06-digital.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/visuals/06-digital.png"
+    },
+    {
+      "path": "assets/visuals/07-presentation.png",
+      "extension": ".png",
+      "bytes": 1800348,
+      "sha256": "580a283583df41d13634f7c2cb1d7d6e22636afdb29b0b247fca7baf3220fab9",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/visuals/07-presentation.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/visuals/07-presentation.png"
+    },
+    {
+      "path": "assets/visuals/08-people.png",
+      "extension": ".png",
+      "bytes": 1728481,
+      "sha256": "48b4b007f3f4ceac0b91161f5405bff2948ae360c852960d695e01a80fadd101",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/visuals/08-people.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/visuals/08-people.png"
+    },
+    {
+      "path": "assets/visuals/09-motion.png",
+      "extension": ".png",
+      "bytes": 1658518,
+      "sha256": "255757f34119e03d7c95b5a85fc28635103b0fe0001abbce9aadbd01802683d8",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/assets/visuals/09-motion.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/assets/visuals/09-motion.png"
+    },
+    {
+      "path": "design-tokens.css",
+      "extension": ".css",
+      "bytes": 716,
+      "sha256": "a6f93277c21970bc3fcf0eacc958c4e7b4f8e6619898296a3540a29bd8535876",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/design-tokens.css",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/design-tokens.css"
+    },
+    {
+      "path": "design-tokens.json",
+      "extension": ".json",
+      "bytes": 829,
+      "sha256": "b4c888e36d48cca78ca41da63fe6ab1b9ed4d9720cf96ce8966b4bfec19dd4aa",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/design-tokens.json",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/design-tokens.json"
+    },
+    {
+      "path": "guide/assets.html",
+      "extension": ".html",
+      "bytes": 6331,
+      "sha256": "8c0ab8323c07627be2dce419133586d3b8554e07b930ca84af395061d7f1b3be",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/assets.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/assets.html"
+    },
+    {
+      "path": "guide/brand-manual.html",
+      "extension": ".html",
+      "bytes": 23588,
+      "sha256": "b226d03e83734bfd274f8e40eed9a04c7079842a1e6053f5bc658ad8fdf5379a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/brand-manual.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/brand-manual.html"
+    },
+    {
+      "path": "guide/brand-manual.md",
+      "extension": ".md",
+      "bytes": 5792,
+      "sha256": "f8fae869119b9212873ab1fc7318a0d8012c8830cdf699739e5bb3b266c6fa88",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/brand-manual.md",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/brand-manual.md"
+    },
+    {
+      "path": "guide/brand-manual.pdf",
+      "extension": ".pdf",
+      "bytes": 30827314,
+      "sha256": "e6d2b807e03c83ab83369a4b0dfa6555592e4105e24f37f1b89fbb9a2d10f463",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/brand-manual.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/brand-manual.pdf"
+    },
+    {
+      "path": "guide/site.css",
+      "extension": ".css",
+      "bytes": 3395,
+      "sha256": "026087c0bbe3bf92028ad94013c42606f6d68f07d96dc0c2e276569d742b8d78",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/site.css",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/site.css"
+    },
+    {
+      "path": "guide/ui-colors-print.html",
+      "extension": ".html",
+      "bytes": 8954,
+      "sha256": "ec775c4f7883fd3269ed1b0f15601a236b892ca939609ad4429a3c9794c91c42",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/ui-colors-print.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/ui-colors-print.html"
+    },
+    {
+      "path": "guide/ui-colors.css",
+      "extension": ".css",
+      "bytes": 2551,
+      "sha256": "03c4c72c7bd17f91eb689a187c5d1c48fa352d1aac6f9b83a09ffd07797ef594",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/ui-colors.css",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/ui-colors.css"
+    },
+    {
+      "path": "guide/ui-colors.html",
+      "extension": ".html",
+      "bytes": 913,
+      "sha256": "659d21d17eb3ef8bd6e47b707c7f4b5dd3308d1a671ff7563e48ed9646852151",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/ui-colors.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/ui-colors.html"
+    },
+    {
+      "path": "guide/ui-colors.json",
+      "extension": ".json",
+      "bytes": 1236,
+      "sha256": "cf2c97ae1e1f3ac4c8cc73c307cef4145afe35858fc37ad7a97f097718eb139b",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/ui-colors.json",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/ui-colors.json"
+    },
+    {
+      "path": "guide/ui-colors.md",
+      "extension": ".md",
+      "bytes": 1847,
+      "sha256": "5af6850b7def2fc62f21d17c0c0cc9f940933c0701d96240f4b2b1ad58d04ebc",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/ui-colors.md",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/ui-colors.md"
+    },
+    {
+      "path": "guide/ui-colors.pdf",
+      "extension": ".pdf",
+      "bytes": 2273375,
+      "sha256": "a802accd9d11776d0f5fd7784f4dd9c99ac0dc9a0eaaea908c4ba45bf30abea1",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/ui-colors.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/ui-colors.pdf"
+    },
+    {
+      "path": "guide/ui-guide.js",
+      "extension": ".js",
+      "bytes": 987468,
+      "sha256": "ef5558021cda7f36d57dc4689f73af9cc63e1239db3413285ddbb08cd1310c68",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/ui-guide.js",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/ui-guide.js"
+    },
+    {
+      "path": "guide/variants.css",
+      "extension": ".css",
+      "bytes": 2449,
+      "sha256": "f5e6999dac888e50dc79dcbe04b9b8aebf07be1163740392728bcc105b0f604f",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/guide/variants.css",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/guide/variants.css"
+    },
+    {
+      "path": "templates/article.html",
+      "extension": ".html",
+      "bytes": 1364,
+      "sha256": "0b8ba4096af89cd3bb6e23d451e04b3d60f24f711ddbf9a57e7320e99d839461",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/article.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/article.html"
+    },
+    {
+      "path": "templates/business-card-back.html",
+      "extension": ".html",
+      "bytes": 482,
+      "sha256": "a56b27a1f917a39830704002da6d300496efc3758d6d761548d11b97f953fd64",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/business-card-back.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/business-card-back.html"
+    },
+    {
+      "path": "templates/business-card-front.html",
+      "extension": ".html",
+      "bytes": 498,
+      "sha256": "d10416f62cd554270ce5c09cc55e9a5338a404fb2f582955c202dbb9dbecb8db",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/business-card-front.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/business-card-front.html"
+    },
+    {
+      "path": "templates/cobrand-project.html",
+      "extension": ".html",
+      "bytes": 1144,
+      "sha256": "ae07a3a4e57723dbd46bff9d122a93c2e78cb7c8d8e34b2dd1e437aee25ab112",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/cobrand-project.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/cobrand-project.html"
+    },
+    {
+      "path": "templates/email-signature.html",
+      "extension": ".html",
+      "bytes": 885,
+      "sha256": "778427e82c992d6bc3624eefab103ec3479d515f9426fda4c7c89e502afa31fe",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/email-signature.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/email-signature.html"
+    },
+    {
+      "path": "templates/exports/business-card-back.pdf",
+      "extension": ".pdf",
+      "bytes": 91899,
+      "sha256": "aa7fb0bc14322d539d38fd6f6040b0851b8ee86162d1b6031454a873936c9b5b",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/business-card-back.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/business-card-back.pdf"
+    },
+    {
+      "path": "templates/exports/business-card-back.png",
+      "extension": ".png",
+      "bytes": 28071,
+      "sha256": "6cc07d8f87b1e4b6fcc07878aef455070a26e6a99eefb36c3e53c55c0b0262b2",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/business-card-back.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/business-card-back.png"
+    },
+    {
+      "path": "templates/exports/business-card-front.pdf",
+      "extension": ".pdf",
+      "bytes": 1666759,
+      "sha256": "86f468d6225202a7e7b0e2093fcfca21fd8f76d1dddfa2788bd40665e93b25fe",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/business-card-front.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/business-card-front.pdf"
+    },
+    {
+      "path": "templates/exports/business-card-front.png",
+      "extension": ".png",
+      "bytes": 90930,
+      "sha256": "418c307a12176a407cb528e1220dcfd3b62c846f41e4eb271601db24781ceecb",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/business-card-front.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/business-card-front.png"
+    },
+    {
+      "path": "templates/exports/report-proposal.pdf",
+      "extension": ".pdf",
+      "bytes": 1993348,
+      "sha256": "3556d61bd3308c51be0cf93eab0280afa2a53476495cee324adfbcbf7009b25b",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/report-proposal.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/report-proposal.pdf"
+    },
+    {
+      "path": "templates/exports/social-cover.png",
+      "extension": ".png",
+      "bytes": 291141,
+      "sha256": "332d4dcbbd3396e031d77af7f6920ebd82bc33ab35d5c1c51bca2c9babb252cb",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/social-cover.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/social-cover.png"
+    },
+    {
+      "path": "templates/exports/social-poster.png",
+      "extension": ".png",
+      "bytes": 354064,
+      "sha256": "41d6e7b8ffeb7ec39f8e32d4987495b47f051564ee701672c6c14f7f20424626",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/social-poster.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/social-poster.png"
+    },
+    {
+      "path": "templates/exports/video-cover-landscape.png",
+      "extension": ".png",
+      "bytes": 616771,
+      "sha256": "9f801a8214abe2b645a8da10bf74508f75f28e77b0404d5806b0a5228d271411",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/video-cover-landscape.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/video-cover-landscape.png"
+    },
+    {
+      "path": "templates/exports/video-cover-portrait.png",
+      "extension": ".png",
+      "bytes": 766386,
+      "sha256": "418b74b80d85a9115d587fd2c8cc65d5b68f98711ed208b58896998bbb487c31",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/video-cover-portrait.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/video-cover-portrait.png"
+    },
+    {
+      "path": "templates/exports/video-endcard-landscape.png",
+      "extension": ".png",
+      "bytes": 147694,
+      "sha256": "82251cd3e43237ce7eee9ae21350a0161aa036bbca20f52dc20ccada32959c18",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/video-endcard-landscape.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/video-endcard-landscape.png"
+    },
+    {
+      "path": "templates/exports/video-endcard-portrait.png",
+      "extension": ".png",
+      "bytes": 115455,
+      "sha256": "bb5bb867aa2efb54b7846e70e5f1ed99a45cd9d2edb04b015d6822ed35c9b9a8",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/video-endcard-portrait.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/video-endcard-portrait.png"
+    },
+    {
+      "path": "templates/exports/video-subtitle-landscape.png",
+      "extension": ".png",
+      "bytes": 32951,
+      "sha256": "e7544b888ac85fae1f3a38544d94a5df252e5f4c8f6236d2f37e335c1227f81a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/video-subtitle-landscape.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/video-subtitle-landscape.png"
+    },
+    {
+      "path": "templates/exports/video-subtitle-portrait.png",
+      "extension": ".png",
+      "bytes": 34364,
+      "sha256": "358fb352b1b77b36b006e89bbe9f0203316ae9a9e8b60c25ebac771c4d9ab583",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/video-subtitle-portrait.png",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/video-subtitle-portrait.png"
+    },
+    {
+      "path": "templates/exports/workshop-worksheet.pdf",
+      "extension": ".pdf",
+      "bytes": 1786720,
+      "sha256": "aa1ebfa7eb4b2ee2c04d24c6a3749f793dea86f975e7930e7c12d9e8b6db0f52",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/exports/workshop-worksheet.pdf",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/exports/workshop-worksheet.pdf"
+    },
+    {
+      "path": "templates/jie-lab-template.pptx",
+      "extension": ".pptx",
+      "bytes": 3851769,
+      "sha256": "040bc94a4a18404eab9e27774785b5ce6f2434adeb25aa69de338ec60157a262",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/jie-lab-template.pptx",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/jie-lab-template.pptx"
+    },
+    {
+      "path": "templates/landing.html",
+      "extension": ".html",
+      "bytes": 1873,
+      "sha256": "1478926d7cb6fab8bcdcbc3721d06b1f6db3c6b653f7bb464477efcffb542dd7",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/landing.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/landing.html"
+    },
+    {
+      "path": "templates/member-profile.html",
+      "extension": ".html",
+      "bytes": 1260,
+      "sha256": "42c0ad2881a25bfe5c0b87789c359fd16855656bd909f7f122e63f07e5c14cb3",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/member-profile.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/member-profile.html"
+    },
+    {
+      "path": "templates/motion-demo.html",
+      "extension": ".html",
+      "bytes": 14716,
+      "sha256": "0ced2ba77d0dd81427882a369f7b33f9e2f86f146b7a92d13922c9e31b049cd2",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/motion-demo.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/motion-demo.html"
+    },
+    {
+      "path": "templates/product-dark.html",
+      "extension": ".html",
+      "bytes": 1548,
+      "sha256": "787ae2d260b255a3faca27b03530a368e93efd8d63ae7880e40aa4ba79c90a7a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/product-dark.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/product-dark.html"
+    },
+    {
+      "path": "templates/product-light.html",
+      "extension": ".html",
+      "bytes": 1545,
+      "sha256": "a220392204a27d2807ff1975acbf91d4b7352f7351a17a46ecfa835bf1240d2e",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/product-light.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/product-light.html"
+    },
+    {
+      "path": "templates/report-proposal.html",
+      "extension": ".html",
+      "bytes": 14914,
+      "sha256": "c41406c17bf684adf5fc46a2b83d4e709088451714b4fd70ccd7167cc0536240",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/report-proposal.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/report-proposal.html"
+    },
+    {
+      "path": "templates/social-cover.html",
+      "extension": ".html",
+      "bytes": 567,
+      "sha256": "24a2de8304002971776377f7a85597216c40de3c23792cbb87958393afc9267a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/social-cover.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/social-cover.html"
+    },
+    {
+      "path": "templates/social-poster.html",
+      "extension": ".html",
+      "bytes": 672,
+      "sha256": "59e3e40d29fdcc48c6564cb494decb0742c23ca87b716e0ee8e96866d5945be4",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/social-poster.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/social-poster.html"
+    },
+    {
+      "path": "templates/style.css",
+      "extension": ".css",
+      "bytes": 6613,
+      "sha256": "72ffaebb53ba42ef7cf043c9bb0b8be4385b9caf7995444bb8b644f29e80993a",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/style.css",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/style.css"
+    },
+    {
+      "path": "templates/video-cover-landscape.html",
+      "extension": ".html",
+      "bytes": 607,
+      "sha256": "8e6a32c1ef3ea0752c642b485740bd92650f3e7e70747d734ebbdf50c06f3032",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/video-cover-landscape.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/video-cover-landscape.html"
+    },
+    {
+      "path": "templates/video-cover-portrait.html",
+      "extension": ".html",
+      "bytes": 590,
+      "sha256": "e919ba1c3e0fee1f5851ce9f17e67a42d88f7183e05c739290f0e8ba4ef8d16b",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/video-cover-portrait.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/video-cover-portrait.html"
+    },
+    {
+      "path": "templates/video-endcard-landscape.html",
+      "extension": ".html",
+      "bytes": 536,
+      "sha256": "8d06d69c375b342c3789df2558b86c04d359e7e5eeaece7e7e64b606a31f9310",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/video-endcard-landscape.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/video-endcard-landscape.html"
+    },
+    {
+      "path": "templates/video-endcard-portrait.html",
+      "extension": ".html",
+      "bytes": 534,
+      "sha256": "3e00700826f9ce7b008f6851eafe7aabeda0107d9adb1192a473436ef94273d4",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/video-endcard-portrait.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/video-endcard-portrait.html"
+    },
+    {
+      "path": "templates/video-subtitle-landscape.html",
+      "extension": ".html",
+      "bytes": 419,
+      "sha256": "faa6c864b9ceb4a16995c31a8d73dd037573a269821e74955b3a6417dd5ae1cf",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/video-subtitle-landscape.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/video-subtitle-landscape.html"
+    },
+    {
+      "path": "templates/video-subtitle-portrait.html",
+      "extension": ".html",
+      "bytes": 417,
+      "sha256": "64f39f619c1059f4718def2df8d405e3b4b7d54d7748ec11ef86b5bc1ab2a45c",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/video-subtitle-portrait.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/video-subtitle-portrait.html"
+    },
+    {
+      "path": "templates/workshop-worksheet.html",
+      "extension": ".html",
+      "bytes": 848,
+      "sha256": "5aed94d50f290aa2f04e33c4f189ee7d58c3ee99283c08e4ea097c2041c1ac37",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/templates/workshop-worksheet.html",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/templates/workshop-worksheet.html"
+    },
+    {
+      "path": "ui/THIRD-PARTY-NOTICES.txt",
+      "extension": ".txt",
+      "bytes": 78206,
+      "sha256": "7d5103b0b475ad42310641b9a658da1808c73808856480013e57936d3fd58d8d",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/ui/THIRD-PARTY-NOTICES.txt",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/ui/THIRD-PARTY-NOTICES.txt"
+    },
+    {
+      "path": "ui/build.mjs",
+      "extension": ".mjs",
+      "bytes": 881,
+      "sha256": "2397497bb74d04e374867d80653be4393a78408f6ff6af258f439fa988f19341",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/ui/build.mjs",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/ui/build.mjs"
+    },
+    {
+      "path": "ui/main.jsx",
+      "extension": ".jsx",
+      "bytes": 6418,
+      "sha256": "03d1d8a769063601d144dfae8bd91f13d14f9774d59ee275ca9ee15640ad3ec6",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/ui/main.jsx",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/ui/main.jsx"
+    },
+    {
+      "path": "ui/package-lock.json",
+      "extension": ".json",
+      "bytes": 51954,
+      "sha256": "6b9438ddf8719737e26caed3bf81639cdb62bd866867256e9eb44aeadfded75e",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/ui/package-lock.json",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/ui/package-lock.json"
+    },
+    {
+      "path": "ui/package.json",
+      "extension": ".json",
+      "bytes": 271,
+      "sha256": "9b5ec0ab979d5b11b059f6caeeb9d07f8e8be5b5ccba00331d787ffa005b5dc1",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/ui/package.json",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/ui/package.json"
+    },
+    {
+      "path": "ui/theme.mjs",
+      "extension": ".mjs",
+      "bytes": 2431,
+      "sha256": "4fd1cb7ac3a19b998054261412639db1b56350903a86984daf17c5cb44455b8b",
+      "rawUrl": "https://raw.githubusercontent.com/liunoly-design/JieLabVI/main/ui/theme.mjs",
+      "browseUrl": "https://github.com/liunoly-design/JieLabVI/blob/main/ui/theme.mjs"
+    }
+  ]
+}
